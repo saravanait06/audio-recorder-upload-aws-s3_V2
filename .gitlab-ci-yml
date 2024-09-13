@@ -1,0 +1,6 @@
+build project:
+    image: node:8.19.1
+    script:
+        - npm install
+        - npm start
+        - npm run build
